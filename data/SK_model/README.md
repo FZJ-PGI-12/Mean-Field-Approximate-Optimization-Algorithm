@@ -17,4 +17,4 @@ contain the values of $`E_*`$ for each separate instances. The files
 
 `SK_model_p_1000_N_10_num_inst_10000_seed_137_moments.h5`
 
-in turn contain $`E_*`$, i.e. the cost function averaged over all instances.
+in turn contain $`\langle E_*\rangle`$ and $`\langle E_*^2\rangle`$, i.e. the cost function averaged over all instances.
