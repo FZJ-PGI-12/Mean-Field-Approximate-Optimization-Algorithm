@@ -1,2 +1,28 @@
+[project]
+name = "meanfieldaoa"
+description = "A quantum-inspired classical optimization algorithm for Ising-like optimization problems."
+version = "0.1"
+readme = "README.md"
+authors = [
+    { name = "Tim Bode", email = "t.bode@fz-juelich.de" },
+    { name = "Dmitry Bagrets" },
+    { name = "Tobias Stollenwerk", email = "to.stollenwerk@fz-juelich.de" },
+    { name = "Aditi Misra-Spieldenner" }
+]
+
+keywords = ["optimization", "quantum algorithms", "QAOA"] 
+
+license = {file = "LICENSE"}
+
+requires-python = ">=3.8"
+
+dependencies = [
+    "numpy"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [tool.pytest.ini_options]
 pythonpath = "src"
