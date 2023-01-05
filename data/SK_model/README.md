@@ -1,15 +1,19 @@
-The instances for `N=5, ..., 20` are identical to those used in
-
-`/home/lappet/Archives/projects/QuantumComputing/meanfieldaoa/data/SK_model/`,
-
-i.e. they are obtained by restarting the notebook for each value of `N`, such that the seed is 137 at the beginning of each loop over the 10000 instances.
-
+### Raw and exact data
 
 The files
 
 `SK_model_p_1000_N_10_num_inst_10000_seed_137.h5`
 
-etc. contain the raw data from the mean-field AOA. The files
+etc. contain the raw data from the mean-field AOA. For `N=5, ..., 20`, these instances are identical to the exact instances in
+
+`SK_model_p_1000_N_10_num_inst_10000_seed_137_exact.h5`,
+
+i.e. they are obtained by restarting the notebook for each value of `N`, such that the seed is 137 at the beginning of each loop over the 10000 instances.
+
+
+### Statistics
+
+The files
 
 `SK_model_p_1000_N_20_num_inst_10000_seed_137_hist_stats.h5`
 
