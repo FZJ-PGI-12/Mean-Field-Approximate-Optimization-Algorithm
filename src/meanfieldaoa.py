@@ -1,4 +1,4 @@
-"""MeanFieldAOA
+"""meanfieldaoa
 
 Collection of functions implementing the mean-field AOA algorithm.
 
