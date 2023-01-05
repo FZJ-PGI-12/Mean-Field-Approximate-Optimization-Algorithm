@@ -20,7 +20,6 @@ def rotation(alpha: np.ndarray) -> np.ndarray:
 
 
 
-# magnetization
 def m(S: np.ndarray, J: np.ndarray) -> np.ndarray:
     """Computes the vector arising from the product of the interaction matrix J
     with the vector formed by all z-components of the spins S.
@@ -39,7 +38,6 @@ def m(S: np.ndarray, J: np.ndarray) -> np.ndarray:
 
 
 
-# evolution
 def evolve(S: np.ndarray, J:np.ndarray,  β: np.ndarray, γ: np.ndarray):
     """Performs a mean-field AOA step by multiplying the spins by the problem and then the driver matrices.
 
@@ -87,7 +85,6 @@ def evolve(S: np.ndarray, J:np.ndarray,  β: np.ndarray, γ: np.ndarray):
 
 
 
-# energy expectation value
 def expectation(S_z: np.ndarray, J: np.ndarray):
     """Returns the energy expectation value in the standard basis.
     
@@ -105,7 +102,6 @@ def expectation(S_z: np.ndarray, J: np.ndarray):
 
 
 
-# result of the algorithm
 def solution(S_z: np.ndarray):
     """Returns the result of the algorithm, i.e. the rounded bitstring.
 
