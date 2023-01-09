@@ -1,8 +1,8 @@
 """
-MeanFieldAOA package.
+meanfieldaoa package.
 """
 
-from .mf_AOA import evolve, expectation, solution
+from .meanfieldaoa import evolve, expectation, solution
 
 name = "meanfieldaoa"
 __version__ = "0.1"
