@@ -6,7 +6,7 @@ readme = "README.md"
 authors = [
     { name = "Tim Bode", email = "t.bode@fz-juelich.de" },
     { name = "Dmitry Bagrets" },
-    { name = "Tobias Stollenwerk", email = "to.stollenwerk@fz-juelich.de" },
+    { name = "Tobias Stollenwerk"},
     { name = "Aditi Misra-Spieldenner" }
 ]
 
