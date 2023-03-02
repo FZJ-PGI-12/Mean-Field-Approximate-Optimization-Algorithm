@@ -44,7 +44,7 @@ def evolve_fluctuations(S: np.ndarray, J:np.ndarray,  τ:np.double, β: np.ndarr
         M = omega_eigvec @ np.diag(np.exp(-1j * τ * omega_eig)) @ np.linalg.inv(omega_eigvec) @ M
         lyapunov_exponential_eig, _ = np.linalg.eigh(M @ M.conj().T)
         lyapunov_exponent_eig = np.log(lyapunov_exponential_eig)/2
-        print(lyapunov_exponential_eig, "\n")  
+          
         lyapunov_exponent_eig = np.sort(lyapunov_exponent_eig)
         lyapunov_exponent[k] = lyapunov_exponent_eig
 
