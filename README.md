@@ -23,7 +23,9 @@ an indicator for the hardness of a given optimization problem relative to the me
 
 ## Code
 
-For an introduction to using the code in this repository, please look into our [introductory notebook](notebooks/introduction.ipynb).
+For an introduction to using the mean-field AOA code in this repository, please look into our [introductory notebook](notebooks/introduction.ipynb) (coming soon).
+
+The remaining [notebooks](notebooks) can be used to reproduce the plots of our paper from the [data](data).
 
 
 ## Citation
