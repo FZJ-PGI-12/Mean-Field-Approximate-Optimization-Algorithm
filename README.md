@@ -2,7 +2,7 @@
 
 #### A quantum-inspired classical optimization algorithm for Ising-like optimization problems
 
-[arXiv](https://arxiv.org/abs/2303.00329)
+[arXiv:2303.00329](https://arxiv.org/abs/2303.00329)
 
 ## Abstract
 
