@@ -1,0 +1,7 @@
+N=33 and N0=32 (with one spin fixed).
+p=20000, \tau=0.4, \Delta=1. (* Large p is needed to avoid fluctuations in Lyapunov exponents *)
+
+Data are recored in discrete time steps (x-axis),  s = k/p, where k = 1, ..., p-1.
+
+
+

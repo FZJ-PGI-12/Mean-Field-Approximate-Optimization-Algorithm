@@ -1,0 +1,15 @@
+N=11 and N0=10 (with one spin fixed).
+\tau=0.5, \Delta=1 
+
+p=2000 (for Lyapunov exponents)
+
+p0=1000 (for data storage)
+
+Data are recored in discrete time steps (x-axis),  s=k/p0, where k = 1, ..., p0-1.
+
+Enegry levels are saved as differences, E_n-E_0, with exact ground state energy E_0 stored separately. 
+
+The same for the MF approximation to E_0, it is saved as E_MF-E_0. 
+
+
+
